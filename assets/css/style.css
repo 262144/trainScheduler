@@ -1,0 +1,74 @@
+body {
+	background-image: url(../images/background.jpg);
+}
+
+.jumbotron {
+	background-color: purple;
+	color: white;
+}
+
+th, td, label, .button-row {
+	text-align: center;
+}
+
+.train-input {
+	width: 140px;
+	text-align: center;
+}
+
+.jumbotron, .panel-primary {
+	min-height: 322px;
+}
+
+#frequency-input {
+	height: 34px;
+}
+
+.top-row {
+	margin-top: 10px;
+}
+
+p {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 3px;
+	text-align: center;
+}
+
+input {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#frequency-input {
+	margin-right: 37%;
+	margin-left: 37%;
+}
+
+row {
+	min-width: 450px;
+}
+
+@media screen and (max-width: 990px) {
+
+.jumbotron, {
+	max-height: 200px;
+}
+
+}/*End of 980px*/
+
+@media screen and (max-width: 768px) {
+  
+  .jumbotron {
+	max-height: 100px;
+}
+
+}/*End of 768px*/
+
+
+@media screen and (max-width: 640px) {
+
+  .jumbotron {
+	max-height: 150px;
+
+}/*End of 640px*/
